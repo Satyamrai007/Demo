@@ -1,0 +1,45 @@
+body {
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%););
+
+}
+
+li {
+    display: inline-block;
+    float: right;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid rgb(3, 0, 1);
+    decoration: none;
+    color: black;
+}
+
+a :hover {
+    color: red;
+}
+a :visited {
+    color: blue;
+}
+
+a :active {
+    color: yellow;
+}
+
+#images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+img {
+    height: 40vh;
+    width: 25vw;
+    flex-grow: 1;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 25px;
+}
